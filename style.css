@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --text-color: #00ff00;
+}
+
+body {
+  font-family: 'bitmap';
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  line-height: 1.6;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.logo img {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+}
+
+h1 {
+  color: var(--text-color);
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  font-family: 'bitmap';
+}
+
+.lb {
+  position: relative;
+  top: -30px;
+  color: var(--text-color);
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-family: 'bitmap';
+}
+
+.footer {
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.footer marquee {
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+h2 {
+  color: var(--text-color);
+  font-family: 'bitmap';
+  font-size: 50px;
+}
+
+h3 {
+  position: relative;
+  top: -10px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: var(--text-color);
+  font-family: 'bitmap';
+}
+
+ul {
+  position: relative;
+  top: -20px;
+  font-size: 25px;
+  list-style-type: none;
+  color: var(--text-color);
+}
+
+.socmed ul {
+  font-size: 23px;
+}
+
+.email {
+  font-size: 30px;
+  color: var(--text-color);
+}
+
+.img img {
+  height: 200px;
+  width: 400px;
+}
+
+.ascii {
+  color: var(--text-color);
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+p {
+  margin: 20px 0;
+  color: var(--text-color);
+  font-size: 23px;
+}
+
+nav {
+  width: 30%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul li {
+  color: var(--text-color);
+  cursor: pointer;
+  padding: 0px 15px;
+}
+.page {
+  position: relative;
+  left: -540px;
+  top: 50px;
+}
+
+.container {
+  position: relative;
+  top: -100px;
+  left: 540px;
+  max-width: 600px;
+  margin: auto;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wb-body {
+  background: rgb(12, 12, 12);
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+  font-family: 'bitmap';
+  color: var(--text-color);
+}
+
+.cursor {
+  font-weight: 700;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+
+  50% {
+    color: var(--text-color);
+  }
+}
+
+@font-face {
+  font-family: bitmap;
+  src: url(font/bitmap.otf);
+}
