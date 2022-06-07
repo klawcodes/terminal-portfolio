@@ -2,4 +2,4 @@
 
 Simple terminal-style website that uses the [WinBox](https://github.com/nextapps-de/winbox) library
 
-## [Demo](https://zeskil.github.io/terminal-portfolio/)
+## [Demo](https://klawcodes.github.io/terminal-portfolio/))
